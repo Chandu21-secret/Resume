@@ -1,0 +1,176 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #f9f9f9, #e8f5e9);
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 20px auto;
+    background: #ece4ea;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    border: 2px solid #e0f7fa;
+    box-shadow: -8px -8px 15px rgba(10, 10, 9, 0.767); 
+}
+
+/* Header Section */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #032d60, #a9a8eb);
+    padding: 20px;
+    border-radius: 12px;
+    color: white;
+}
+
+.header h1 {
+    font-size: 2.8em;
+    margin: 0;
+    font-weight: bold;
+    
+    
+}
+
+.header p {
+    margin: 15px 0;
+    font-size: 1.0em;
+}
+
+.header a {
+    color: #0eb44b;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styles */
+.section {
+    margin-bottom: 10px;
+    padding: 10px;
+    background: #e3f2fd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    color: #1976d2;
+    border-bottom: 3px solid #bbdefb;
+    padding-bottom: 5px;
+    
+    
+}
+
+
+/* Links Section */
+.links a {
+    display: inline-block;
+    color: #0288d1;
+    text-decoration: none;
+    margin-bottom: 8px;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    background: #e1f5fe;
+    border-radius: 6px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.links a:hover {
+    background: #0288d1;
+    color: white;
+}
+
+/* Skills Section */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 5px;
+}
+
+.skills span {
+    display: inline-block;
+    background: #dcedc8;
+    color: #33691e;
+    padding: 10px 15px;
+    border-radius: 25px;
+    font-size: 1em;
+    font-weight: bold;
+    transition: transform 0.2s, background 0.3s;
+    box-shadow: -8px -8px 15px rgba(135, 135, 131, 0.767); 
+}
+
+.skills span:hover {
+    background: #aed581;
+    transform: scale(1.1);
+}
+
+/* Experience Section */
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+    color: #616161;
+}
+
+li {
+    margin-bottom: 12px;
+}
+
+/* Education Section */
+.section p {
+    margin: 5px 0;
+    color: #424242;
+    font-size: 1.1em;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 15px;
+    }
+
+    .header h1 {
+        font-size: 2.2em;
+    }
+
+    .section h2 {
+        font-size: 1.6em;
+    }
+
+    .skills span {
+        padding: 8px 12px;
+        font-size: 0.9em;
+    }
+}
+
+
+/* Download Button */
+#download-btn {
+    background-color: #148d2e;
+    color: rgb(227, 230, 227);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+
+#download-btn:hover {
+    background-color: #0056b3;
+}
+
